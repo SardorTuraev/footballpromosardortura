@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="badge-light">
+  
+  <div class="container-lg">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow rounded">
+      
+      <a class="navbar-brand text-white" href="#">
+        <img class="d-inline-block align-top bg-dark" src="img/fc-barcelona.svg" width="30" height="30" alt="">
+        Barcelona 
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Championship</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">News</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <section class="pt-5 px-0">
+      <h1 class="sr-only"></h1>
+      <h2 class="m-0 text-center">Today's match</h2>
+      <div class="row no-gutters">
+        
+        <div class="col-12 col-sm-4 mb-3">
+          <div class="card bg-dark mt-4 text-white">
+            <img class="card-img-top" src="img/fc-barcelona.svg" alt="First Club" width="200" height="200">
+            <div class="card-body text-center">
+              <h2 class="m-0 mb-2">Barcelona</h2>
+              
+              <dl class="card-text mb-0">
+                <div class="d-flex justify-content-center">
+                  <dd>Wins: </dd>
+                  <dt>14 |</dt>
+                  <dd>Loses:</dd>
+                  <dt>0 |</dt>
+                  <dd>Draws: </dd>
+                  <dt>2 |</dt>
+                </div>
+              </dl>
+              <dl class="card-text mb-0">
+                <div class="d-flex justify-content-center">
+                  <dd>Leaderboard position: </dd>
+                  <dt>4</dt>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-12 col-sm-4 d-flex mt-auto flex-column px-3 align-items-center" id="myTab">
+          <button class="btn btn-dark mb-3" data-toggle="modal" data-target="#exampleModal">Watch match promo</button>
+          <a class="btn btn-dark mb-3" href="#">Buy tickets</a>
+          <a class="btn btn-dark mb-3" href="#">Buy merch</a>
+          <a class="btn btn-dark" data-toggle="collapse" href="#collapseExample">More info</a>
+        </div>
+        
+        <div class="col-12 col-sm-4">
+          <div class="card bg-dark mt-4 text-white">
+            <img class="card-img-top" src="img/fc-barcelona.svg" alt="Second Club" width="200" height="200">
+            <div class="card-body text-center">
+              <h2 class="m-0 mb-2">Barcelona</h2>
+              
+              <dl class="card-text mb-0">
+                <div class="d-flex justify-content-center">
+                  <dd>Wins: </dd>
+                  <dt>14 |</dt>
+                  <dd>Loses: </dd>
+                  <dt>0 |</dt>
+                  <dd>Draws: </dd>
+                  <dt>2 |</dt>
+                </div>
+              </dl>
+              <dl class="card-text mb-0">
+                <div class="d-flex justify-content-center">
+                  <dd>Leaderboard position: </dd>
+                  <dt>4</dt>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="collapse fade my-4" id="collapseExample">
+      <ul class="nav nav-tabs border-0" id="myTab">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#topgoals">Top Goals</a>
+        </li>
+      </ul>
+      
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="team" role="tabpanel" aria-labelledby="home-tab">
+          <div class="table__info row">
+            <div class="col-12 col-md-6">
+              <table class="table table-dark text-white bg-dark rounded">
+                <thead>
+                  <tr>
+                    <th class="font-weight-normal" scope="col">Name</th>
+                    <th class="font-weight-normal" scope="col">Age</th>
+                    <th class="font-weight-normal" scope="col">Nickn</th>
+                    <th class="font-weight-normal" scope="col">Employee</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th class="font-weight-normal" scope="row">Braithwaite</th>
+                    <td>30</td>
+                    <td>King</td>
+                    <td>
+                      <input type="radio" name="radio">
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="font-weight-normal" scope="row">Depay</th>
+                    <td>27</td>
+                    <td>Memphis</td>
+                    <td>
+                      <input type="checkbox" name="checkbox">
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="font-weight-normal" scope="row">Pedri</th>
+                    <td>18</td>
+                    <td>Maestro</td>
+                    <td>
+                      <input type="checkbox" name="checkbox" disabled>
+                    </td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+            
+            <div class="col-12 col-md-6">
+              <table class="table table-dark text-white bg-dark rounded">
+                <thead>
+                  <tr>
+                    <th class="font-weight-normal" scope="col">Name</th>
+                    <th class="font-weight-normal" scope="col">Age</th>
+                    <th class="font-weight-normal" scope="col">Nickn</th>
+                    <th class="font-weight-normal" scope="col">Employee</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th class="font-weight-normal" scope="row">De jong</th>
+                    <td>22</td>
+                    <td>Maestro</td>
+                    <td>
+                      <input type="radio" name="radio">
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="font-weight-normal" scope="row">Dembele</th>
+                    <td>25</td>
+                    <td>Dembele</td>
+                    <td>
+                      <input type="checkbox" name="checkbox">
+                    </td>
+                  </tr>
+                  <tr>
+                    <th class="font-weight-normal" scope="row">Ter Shtegen</th>
+                    <td>29</td>
+                    <td>Wall</td>
+                    <td>
+                      <input type="checkbox" name="checkbox" disabled>
+                    </td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tab-pane fade bg-dark" id="topgoals" role="tabpanel" aria-labelledby="home-tab">
+          <div class="py-4">
+            <h3 class="text-white pl-3">Top Goals in Champions League in this season</h3>
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/idLt1zL5rnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a class="mr-4 pl-3 display-4 text-white" href="https://youtu.be/idLt1zL5rnE">Youtube Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="exampleModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-dark">
+          <h5 class="modal-title text-white">FC Barcelona</h5>
+          <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/75FFqwVirOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
